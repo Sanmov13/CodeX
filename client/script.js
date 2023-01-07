@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from he server
 
-  const response = await fetch("https://openai-1xj7.onrender.com", {
+  const response = await fetch("http://localhost:3012", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
