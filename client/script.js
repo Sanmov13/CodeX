@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
 
   loader(messageDiv);
 
-  // fetch data from he server
+  // fetch data from the server
 
   const response = await fetch("http://localhost:3012", {
     method: "POST",
@@ -109,4 +109,4 @@ form.addEventListener("keyup", (e) => {
   if (e.keyCode === 13) {
     handleSubmit(e);
   }
-});
+})
